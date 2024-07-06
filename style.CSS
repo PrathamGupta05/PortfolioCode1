@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+body{
+    background-size: 70%;
+    background-color: whitesmoke;
+}
+.nav-section{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    border: 1px solid white;
+}
+.anchor-elements{
+    margin: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+li{
+    display: inline;
+    margin: 25px;
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+    animation-name: animatingLinks;
+    animation-duration: 0.7s;
+    animation-delay: 0s;
+}
+#img01{
+    width: 105px;
+    height: 50px;
+    position: absolute;
+    bottom: 6px;
+    border: 2px solid white;
+    margin-bottom: 6.50px;
+}
+#quote1{
+    position: absolute;
+    left: 380px;
+    bottom: 25px;
+    color: white;
+    font-size: 1.50rem;
+    color: deepskyblue;
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+#quote2{
+    font-size: 2rem;
+    position: absolute;
+    top: 80px;
+    color: purple;
+    font-size: 25px;
+    top: 125px;
+    font-family: cursive;
+}
+#s1{
+    position: relative;
+    left: 165px;
+    color: mediumvioletred;
+    text-decoration: underline;
+    text-decoration-color: mediumblue;
+}
+.info{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-size: 1.50rem;
+}
+p{
+    font-family: none;
+}
+h1{
+    font-size: 6rem;
+    color: black;
+}
+h1::first-letter{
+    color: crimson;
+}
+#img02{
+    opacity: 1;
+    width: 360px;
+    height: 440px;
+    position: absolute;
+    left: 1000px;
+    bottom: 259px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#img02:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+i{
+    color: red;
+    position: relative;
+    right: 22px;
+}
+.ProjectBox{
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    top: 735px;
+    width: 80%;
+    height: 80%;
+    margin-left: 13%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.B0{
+    width: 95%;
+    height: 10%;
+    margin: 40px;
+    position: absolute;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px darkblue;
+}
+.B1{
+    border: 1px solid black;
+    width: 26%;
+    height: 50%;
+    position: relative;
+    top: 200px;
+}
+.H2{
+    position: absolute;
+    font-family: math;
+    font-size: 3rem;
+    font-weight: 100;
+    text-shadow: 0px 0px 10px blue;
+    border-radius: 10px;
+}
+.Logos{
+    width: 255px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    width: 35%;
+    border-color: black;
+    height: 0%;
+    position: relative;
+    top: 15px;
+}
+.l1{
+    width: 30px;
+}
+.LINKS{
+    position: absolute;
+    left: 1250px;
+    top: 600px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px;
+}
+#link1{
+    color: darkblue;
+}
+#E-L1{
+    width: 35px;
+}
+#hr1{
+    position: absolute;
+    top: 710px;
+    left: 200px;
+    width: 100%;
+    line-height: 4000em;
+    color: darkred;
+}
+#PIm1{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 50px darkblue;
+}
+.LangBox{
+    width: 80%;
+    height: 280px;
+    position: absolute;
+    top: 1500px;
+    left: 190px;
+}
+h3{
+    font-family: math;
+    font-size: 3rem;
+    font-weight: 100;
+    text-shadow: 0px 0px 10px blue;
+    position: relative;
+    left: 430px;
+}
+.A1{
+    width: 100px;
+    height: 130px;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 5px;
+    left: 478px;
+}
+.InnerLangBox{
+    width: 1200px;
+    height: 135px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footerSec{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 1850px;
+    background-color: black;
+}
+.innerFooterSec{
+    width: 100%;
+    height: 130px;
+    border: 3px solid green;
+    position: relative;
+    top: 95px;
+}
+.lineBox{
+    width: 700px;
+    height: 120px;
+    position: relative;
+    left: 325px;
+    top: 99px;
+}
+h4{
+    color: white;
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+h6{
+    color: white;
+}
+.rect{
+    width: 70%;
+    height: 15px;
+    border: 1px solid white;
+    position: relative;
+    top: 10px;
+}
+.rect2{
+    width: 25%;
+    height: 15px;
+    position: relative;
+    left: 500px;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.circleDot{
+    width: 15px;
+    height: 15px;
+    border: 2.3px solid red;
+    border-radius: 100%;
+}
+.Pf{
+    width: 15%;
+    height: 25px;
+    position: relative;
+    left: 565px;
+    top: 35px;
+}
+span{
+    color: white;
+    font-family: math;
+}
+.p1{
+    font-family: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cR{
+    width: 45%;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 45px;
+    left: 415px;
+}
+.p2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.p3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
